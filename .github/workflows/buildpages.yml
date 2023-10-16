@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+permissions:
+  contents: write
 jobs:
   deploy:                                         # a free machine-readable name for this job
     runs-on: ubuntu-latest                        # specify the base operating system
